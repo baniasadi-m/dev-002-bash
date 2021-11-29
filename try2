@@ -37,7 +37,7 @@ number=""
 ###########   checking interval value ##########
 
 if [ -z $interval ] && [ -z "$TRY_INTERVAL" ] ;then
-     interval="2"
+     interval="5"
 elif [ -z $interval ] && [ ! -z "$TRY_INTERVAL" ]; then
      interval=$TRY_INTERVAL
 fi
@@ -46,7 +46,7 @@ fi
 ###########   check number ##########
 
 if [ -z $number ] && [ -z "$TRY_NUMBER" ] ;then
-     number="3"
+     number="12"
 elif [ -z $number ] && [ ! -z "$TRY_NUMBER" ]; then
      number=$TRY_NUMBER
 fi
